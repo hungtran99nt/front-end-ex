@@ -116,11 +116,12 @@ ul.footer-links {
 /* ================Content================ */
 
 div.about-content,
-div.news-content {
+div.news-content,
+div.contact-content {
     /* display: flex; */
     /* justify-content: space-between; */
     overflow: auto;
-    width: 60%;
+    width: 70%;
     margin: auto;
     padding: 15px 0 15px 0;
 }
@@ -150,7 +151,7 @@ div.business-content ul {
 
 div.business-content img {
     float: left;
-    margin-left: -40px;
+    margin-left: -30px;
 }
 
 div.img {
@@ -166,13 +167,17 @@ div.img {
     justify-content: space-between;
 }
 
+.desc p {
+    font-size: 12px;
+}
+
 .title {
     /* align-self: auto; */
     float: left;
     width: 33.33%;
     overflow: auto;
     border: 1px solid #ccc;
-    max-width: 250px;
+    max-width: 300px;
     height: fit-content;
     /* margin-right: 5px; */
     /* align-items: baseline; */
@@ -185,7 +190,7 @@ div.img {
 
 div.title img {
     /* object-fit: cover; */
-    width: 250px;
+    width: 300px;
     height: 200px;
     justify-content: ;
     /* margin: 20px; */
@@ -194,36 +199,7 @@ div.title img {
     /* flex-grow: 1; */
 }
 
-
-/* @media screen and (max-width:600px) {
-    div.middle-content-about-1 {
-        width: 100%;
-    }
-} */
-
-
-/* a.right-bar-item-button:link {
-    text-decoration: none;
-    text-decoration-color: none;
-    text-align: center;
-    padding: 14px;
-    display: inline-block;
+div.contact-content {
+    display: flex;
+    justify-content: space-between;
 }
-
-.bar-item-button {
-    overflow: hidden;
-    float: left;
-}
-
-.right-hide-small {
-    float: right;
-} */
-
-
-/* #top-content-image {
-    background-image: url("top-content-image.jpg");
-    height: auto;
-    background-position: left;
-    background-repeat: no-repeat;
-    background-size: cover;
-} */
