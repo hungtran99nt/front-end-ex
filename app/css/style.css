@@ -1,187 +1,242 @@
-@import "_global.css";
-.center {
-    margin: auto;
-    overflow: auto;
-    padding: auto;
-}
-
-.float-left {
-    float: left;
-    overflow: auto;
-}
-
-.float-right {
-    float: right;
-    overflow: auto;
-}
-
-.card {
-    line-height: 70px;
-}
-
-.button {
-    box-align: center;
-    padding: 0 14px;
-    display: inline-block;
-}
-
-.title {
-    text-transform: uppercase;
-}
-
-
-/* =========================Header */
-
-.header {
-    overflow: hidden;
-    background-color: rgb(0, 128, 255);
-    height: 70px;
-}
-
-.float-left.card {
-    font-size: 30px;
-}
-
-a.button:hover {
-    color: rgb(255, 213, 0);
-}
-
-a.button:active {
-    color: rgb(255, 213, 0);
-    border-bottom: 1px solid;
-}
-
-.row {
-    padding: 30px 0;
-}
-
-
-/* ========================Content */
-
-.content {
-    font-size: 18px;
-}
-
-
-/* about */
-
-.about {
-    overflow: auto;
-}
-
-.about img {
-    object-fit: cover;
-    margin-top: 16px;
-}
-
-.text p {
-    margin-right: 20px;
-}
-
-
-/* business */
-
-.tags {
-    position: absolute;
-    top: 30%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 100;
-    vertical-align: middle;
-}
-
-.tag {
-    margin-bottom: 22px;
-}
-
-.round {
-    border-radius: 100%;
-    height: 55px;
-    width: 55px;
-}
-
-.business {
-    position: relative;
-    color: rgb(255, 255, 255);
-}
-
-.bg {
-    position: relative;
-}
-
-.bg img {
-    position: relative;
-    min-height: 500px;
-}
-
-.bg .text {
-    position: absolute;
-    top: 8px;
-    left: 40px;
-}
-
-.bg li .bold {
-    margin-bottom: 0px;
-}
-
-.bg li .font-size-13 {
-    margin-top: 10px;
-    margin-bottom: 20px;
-}
-
-
-/* news */
-
-.width-33 {
-    width: calc((100% - 40px)/3);
-    overflow: auto;
-}
-
-.gallery img {
-    width: 100%;
-    height: 200px;
-}
-
-.pic {
-    border: 1px solid #ccc;
-    width: 300px;
-    padding-left: 0;
-}
-
-.pic:hover {
-    border: 1px solid #777;
-}
-
-.pic-middle {
-    margin: 0 20px;
-}
-
-
-/* contact */
-
-.map {
-    margin-top: 16px;
-}
-
-
-/* ==============================Footer */
-
-.width-25 {
-    width: 25%;
-}
-
-.footer {
-    background-color: rgba(0, 0, 0, 0.795);
-    color: white;
-    line-height: 24px;
-}
-
-.footer li {
-    font-size: 13px;
-}
-
-.copyright-text {
-    text-align: center;
-    border-top: 1px solid;
-    margin: 20px;
-}
+    @import "_global.css";
+    .center {
+        margin: auto;
+        overflow: auto;
+        padding: auto;
+    }
+    
+    .float-left {
+        float: left;
+        overflow: auto;
+    }
+    
+    .float-right {
+        float: right;
+        overflow: auto;
+    }
+    
+    .card {
+        line-height: 70px;
+    }
+    
+    .button {
+        box-align: center;
+        padding: 0 14px;
+        display: inline-block;
+    }
+    
+    .title {
+        text-transform: uppercase;
+    }
+    /* =========================Header */
+    
+    .header {
+        overflow: hidden;
+        background-color: rgb(0, 128, 255);
+        height: 70px;
+    }
+    
+    .header a img {
+        vertical-align: baseline;
+    }
+    
+    .float-left.card {
+        font-size: 30px;
+    }
+    
+    a.button:hover {
+        color: rgb(255, 213, 0);
+    }
+    
+    a.button:active {
+        color: rgb(255, 213, 0);
+        border-bottom: 1px solid;
+    }
+    
+    .row {
+        padding: 30px 0;
+    }
+    /* ========================Content */
+    
+    .content {
+        font-size: 18px;
+    }
+    /* about */
+    
+    .about {
+        overflow: auto;
+    }
+    
+    .about img {
+        object-fit: cover;
+        margin-top: 16px;
+    }
+    
+    .text p {
+        margin-right: 20px;
+    }
+    /* business */
+    
+    .tags {
+        position: absolute;
+        top: 30%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 100;
+        vertical-align: middle;
+    }
+    
+    .tag {
+        margin-bottom: 22px;
+    }
+    
+    .round {
+        border-radius: 100%;
+        height: 55px;
+        width: 55px;
+    }
+    
+    .business {
+        position: relative;
+        color: rgb(255, 255, 255);
+    }
+    
+    .bg {
+        position: relative;
+    }
+    
+    .bg img {
+        position: relative;
+        min-height: 500px;
+    }
+    
+    .bg .text {
+        position: absolute;
+        top: 8px;
+        left: 40px;
+    }
+    
+    .bg li .bold {
+        margin-bottom: 0px;
+    }
+    
+    .bg li .font-size-13 {
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+    /* news */
+    
+    .width-33 {
+        width: calc((100% - 40px)/3);
+        overflow: auto;
+    }
+    
+    .gallery {
+        width: 100%;
+    }
+    
+    .gallery img {
+        /* width: 100%; */
+        height: 200px;
+    }
+    
+    .pic {
+        border: 1px solid #ccc;
+        /* width: 300px; */
+        padding-left: 0;
+    }
+    
+    .pic:hover {
+        border: 1px solid #777;
+    }
+    
+    .pic-middle {
+        margin: 0 20px;
+    }
+    
+    .desc {
+        margin: 0 10px;
+    }
+    /* contact */
+    
+    .map {
+        margin-top: 16px;
+    }
+    /* ==============================Footer */
+    
+    .width-25 {
+        width: 25%;
+    }
+    
+    .footer {
+        background-color: #343434;
+        color: white;
+        line-height: 24px;
+    }
+    
+    .footer li {
+        font-size: 12px;
+    }
+    
+    .copyright-text {
+        text-align: center;
+        border-top: 1px solid;
+        margin: 20px;
+    }
+    
+    .categories li,
+    .language li {
+        list-style-image: url("/exercise/app/resource/right-arrow-white-small.png");
+    }
+    
+    .crevea,
+    .categories,
+    .language,
+    .sub {
+        padding-top: 20px;
+    }
+    
+    .crevea p,
+    .categories p,
+    .language p,
+    .sub p {
+        margin: 0px;
+    }
+    
+    .crevea li {
+        margin-bottom: 10px;
+        margin-right: 10px;
+    }
+    
+    .footer-form {
+        width: 100%;
+        margin-top: 20px;
+        border-bottom: 2px solid;
+        border-radius: 7px;
+    }
+    
+    .footer-email,
+    .footer-sub-button {
+        /* border: none; */
+        /* padding: 15px 32px; */
+        /* text-align: center; */
+        text-decoration: none;
+        border: none;
+        /* display: inline-block; */
+        /* margin: 4px 2px; */
+    }
+    
+    .footer-sub-button {
+        background-color: rgb(255, 255, 255);
+        color: #343434;
+        vertical-align: bottom;
+        border-radius: 3px;
+        text-align: center;
+    }
+    
+    .footer-email {
+        background-color: rgba(22, 16, 16, 0.795);
+        color: white;
+        background: transparent;
+        margin-bottom: 4px;
+    }

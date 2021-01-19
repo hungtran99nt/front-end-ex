@@ -29,9 +29,7 @@ img {
     height: auto;
 }
 
-.clearfix,
-.clearfix::after,
-.clearfix::before {
+.clearfix {
     content: "";
     display: table;
     clear: both;
